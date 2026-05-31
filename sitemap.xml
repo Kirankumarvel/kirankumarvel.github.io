@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- English (default) version -->
   <url>
     <loc>https://kirankumarvel.github.io/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
   </url>
-  <!-- Add other important pages here, for example:
+  
+  <!-- Tamil version -->
   <url>
-    <loc>https://kirankumarvel.github.io/about/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <loc>https://kirankumarvel.github.io/ta/</loc>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
   </url>
-  -->
+  
 </urlset>
