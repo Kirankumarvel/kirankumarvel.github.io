@@ -3,8 +3,10 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <!-- ============================================ -->
-  <!-- English (default) version                    -->
+  <!-- Primary pages (highest priority)             -->
   <!-- ============================================ -->
+  
+  <!-- English (default) version -->
   <url>
     <loc>https://kirankumarvel.github.io/</loc>
     <lastmod>2026-07-13</lastmod>
@@ -15,9 +17,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
   </url>
   
-  <!-- ============================================ -->
-  <!-- Tamil version                               -->
-  <!-- ============================================ -->
+  <!-- Tamil version -->
   <url>
     <loc>https://kirankumarvel.github.io/ta/</loc>
     <lastmod>2026-07-13</lastmod>
@@ -29,23 +29,23 @@
   </url>
   
   <!-- ============================================ -->
-  <!-- llms.txt – compact version for AI assistants -->
+  <!-- AI assistant documentation (llms.txt spec)    -->
   <!-- ============================================ -->
+  
+  <!-- llms.txt – compact version for AI assistants -->
   <url>
     <loc>https://kirankumarvel.github.io/llms.txt</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   
-  <!-- ============================================ -->
-  <!-- llms-full.txt – detailed version for AI      -->
-  <!-- ============================================ -->
+  <!-- llms-full.txt – detailed version for AI -->
   <url>
     <loc>https://kirankumarvel.github.io/llms-full.txt</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
