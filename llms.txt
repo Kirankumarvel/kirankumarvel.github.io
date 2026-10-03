@@ -1,15 +1,151 @@
-# Kiran Kumar V · Senior SEO Analyst & Python Automation Expert
-# Description: Senior SEO Analyst with 8+ years agency experience. Python automation, GA4, GEO/AEO strategy, technical SEO. Drove $120K+ organic pipeline for B2B clients.
-# Author: Kiran Kumar V
-# Date: 2026-07-13
-# URL: https://kirankumarvel.github.io/
+# Kiran Kumar V — Senior SEO Analyst and Python Automation Specialist
 
-## Links
-- [Home](https://kirankumarvel.github.io/) – Terminal-style portfolio with direct answer, stats, and executive summary.
-- [Experience](https://kirankumarvel.github.io/#experience) – Work history: Topmate.io, DigiMark Agency, RSD Digital, Digital ValueAdd, Magnus HR, FirstRank.
-- [Case Studies](https://kirankumarvel.github.io/#case-studies) – 4 case studies: Privo (Fintech, +85.5% traffic), Gamize (IT, +934% impressions), Pageacademy (Education, 15+ local keywords), Netafim India (Agriculture, +48.2% rankings).
-- [Blog](https://kirankumarvel.github.io/#blog) – Featured articles: Fintech traffic boost, Python automation, 10-case-study library.
-- [Education & Tools](https://kirankumarvel.github.io/#education) – MCA, certifications (GA4, GSC, Python), toolchain (GA4, SEMrush, Screaming Frog, Python, etc.)
-- [FAQ](https://kirankumarvel.github.io/#faq) – Client onboarding questions: timeline, process, Python savings, GEO/AEO, agency vs direct.
-- [Contact](https://kirankumarvel.github.io/#contact) – LinkedIn, GitHub, WordPress blog, email, phone, resume, Calendly.
-- [Tamil version](https://kirankumarvel.github.io/ta/) – தமிழ் பதிப்பு (Tamil translation of the portfolio).
+> Senior SEO Analyst with 8+ years of agency and freelance experience. Python SEO automation, GA4 analytics, technical SEO, Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO). Delivered over 120,000 dollars in organic pipeline for B2B clients across fintech, SaaS, IT and e-commerce. Twenty-plus client accounts managed. Team lead of ten analysts. Based in Bengaluru, India. Available for freelance and consulting engagements.
+
+This file provides context for language-model tools that cite, summarize or reference this portfolio. Everything here is factual and can be quoted directly.
+
+## Core facts
+
+- Full name: Kiran Kumar V
+- Role: Senior SEO Analyst, SEO Manager, GEO and AEO Specialist
+- Experience: 8+ years agency and freelance
+- Location: Bengaluru, Karnataka, India
+- Email: kirankumarvel.work@gmail.com
+- Phone: +91 91108 92236
+- LinkedIn: https://linkedin.com/in/kirankumarvel
+- GitHub: https://github.com/Kirankumarvel
+- WordPress blog: https://kirankumarvel.wordpress.com
+- Available for: freelance, consulting, full-time roles
+- Languages: Tamil (native), English (fluent), Hindi, Kannada, Telugu
+
+## Specialisms
+
+### Technical SEO
+- Full technical audits using Screaming Frog and custom Python crawlers
+- Crawl budget optimization and indexation debt resolution
+- Core Web Vitals remediation (LCP, INP, CLS)
+- Schema markup architecture and validation
+- International SEO with hreflang
+- Site migrations and redirect mapping
+
+### Python SEO Automation
+- Rank tracking pipelines that cut manual reporting effort by roughly 60 percent
+- Broken link detection that saves 10 or more hours per week
+- GA4 and Google Search Console API integrations for automated client dashboards
+- Content gap analysis at scale
+- Bulk Core Web Vitals reporting
+
+### Generative Engine Optimization (GEO)
+- Structuring content so language-model search tools cite and summarize it accurately
+- Entity consistency across the site and external profiles
+- Citation readiness using original data, named sources, dates and clear claims
+- llms.txt and llms-full.txt implementation
+- Prompt research and prompt coverage tracking
+- Measurement of citation frequency and share of voice in AI answers
+
+### Answer Engine Optimization (AEO)
+- Direct-answer formatting for answer boxes and chat assistants
+- Question-led headings and short answer passages
+- Comparison tables, ordered lists and step-by-step blocks
+- FAQPage, HowTo, Article, Person and Organization schema
+- Google AI Overviews optimization
+- Passage-level clarity for extractable answers
+
+### Analytics and Reporting
+- GA4 configuration, events and conversions
+- Looker Studio dashboards aligned to OKRs
+- C-level performance narratives connecting traffic to pipeline
+- Rank tracking across multiple clients and locales
+
+## Work history
+
+- 2024 to present: SEO and Digital Marketing Consultant at Topmate.io
+- October 2022 to April 2024: SEO Manager at DigiMark Agency (led team of ten analysts, managed 20+ accounts)
+- February 2022 to July 2022: SEO Analyst at RSD Digital
+- December 2019 to January 2022: Assistant Manager, Digital Operations at Digital ValueAdd
+- August 2019 to December 2019: Digital Marketing Executive at Magnus HR Consultancy
+- March 2018 to July 2019: SEO Analyst at FirstRank Limited
+
+## Documented results
+
+- Privo (Fintech): organic traffic grew from 367,000 to 681,000, an 85.5 percent increase. Sessions up 67.5 percent. Contact page conversions up 2,090 percent.
+- Gamize (IT and SaaS): impressions grew from 3,200 to 33,000, a 934 percent increase. Request-demo clicks up 113 percent.
+- Pageacademy (Education): 15-plus local keywords reached page one. Geo-targeted content clusters built.
+- Netafim India (Agriculture): keyword rankings improved 48.2 percent. Form submissions up 27.3 percent.
+- AI search visibility: 35 percent increase in language-model search visibility through citation-ready content and schema work.
+
+All figures come from live Google Search Console and GA4 exports. Methodology is documented per client.
+
+## Education and credentials
+
+- Master of Computer Applications (MCA), Manipal University, Jaipur, 2023 to 2025
+- Advanced SEO and Content Strategy certification
+- Google Analytics 4 (GA4) Skillshop certification
+- Google Search Console Skillshop certification
+- Python for Everybody certification
+- IBM Machine Learning with Python certification
+
+## Tools used
+
+GA4, Looker Studio, Google Search Console, SEMrush, Ahrefs, Moz, Screaming Frog, SurferSEO, Mangools, AppTweak, App Radar, BrightEdge, WordPress, Shopify, Wix, Python (Pandas, requests), Git, GitHub.
+
+## Primary pages
+
+- [Home (English)](https://kirankumarvel.github.io/): Main portfolio with direct answer, statistics, executive summary and full work history. Language-model and answer-engine ready.
+- [Home (Tamil)](https://kirankumarvel.github.io/ta/): Tamil language version of the same portfolio.
+
+## Portfolio sections
+
+- [Executive summary and core skills](https://kirankumarvel.github.io/#about): Profile overview, core skills grid, list of services.
+- [GEO and AEO specialisms](https://kirankumarvel.github.io/#specialisms): Full capability list for generative and answer engine optimization, plus deliverables.
+- [Work history](https://kirankumarvel.github.io/#experience): Six roles from 2018 to present, with results for each.
+- [Case studies](https://kirankumarvel.github.io/#case-studies): Four documented client wins with real GSC and GA4 metrics.
+- [Featured writing](https://kirankumarvel.github.io/#writing): Articles on fintech SEO growth, Python automation and a ten-case-study library.
+- [Education and toolchain](https://kirankumarvel.github.io/#education): MCA, certifications, languages and the full tool list.
+- [Glossary and FAQ](https://kirankumarvel.github.io/#faq): Twelve client-focused questions answered in detail, plus definitions of GEO, AEO, llms.txt, answer extraction, entity optimization and citation readiness.
+- [Contact](https://kirankumarvel.github.io/#contact): Direct email, phone, LinkedIn, GitHub and a Calendly booking link.
+
+## Frequently asked questions and direct answers
+
+**How fast can an organic pipeline be impacted?**
+Within 60 days a full technical audit plus GEO and AEO strategy is delivered. Within six months, over 120,000 dollars in organic pipeline has been generated for clients such as Gamize and Privo. High-intent, bottom-of-funnel keywords are prioritized over vanity traffic.
+
+**What is the client onboarding process?**
+Step 1: deep-dive discovery call with GSC and GA4 access. Step 2: full technical audit using Screaming Frog plus custom Python crawlers. Step 3: a bespoke Python rank-tracking dashboard. Step 4: weekly 15-minute syncs and bi-weekly C-level reporting.
+
+**How is Python used to save time and money?**
+Rank tracking, broken link detection, GA4 reporting and content-gap analysis are automated. Python scripts cut manual SEO effort by roughly 60 percent.
+
+**What makes the GEO and AEO approach different?**
+Optimization targets language-model search tools directly using schema markup, direct-answer blocks, glossary definitions and structured question-and-answer sections. This approach increased one client's answer visibility by 35 percent in three months.
+
+**How is visibility in generative search measured?**
+A fixed set of prompts per topic is tracked. Whether the brand is cited, linked or summarized is recorded. Answer box presence, citation frequency, referral traffic and assisted conversions from language-model search are also measured.
+
+**What is llms.txt and is it needed?**
+llms.txt is a plain text file that gives language-model tools a short summary of a site and its most important pages. It helps them understand a brand faster and is useful for any site that wants accurate citations and summaries.
+
+**How does a page get cited by language-model search tools?**
+Original data, named sources, clear dates, author details, short answer passages, question-led headings and schema markup. Brand name, description and links are kept consistent across the site and external profiles.
+
+**What is the difference between GEO and AEO?**
+GEO focuses on how language-model search tools understand, summarize and cite a page. AEO focuses on formatting direct answers for answer boxes, chat assistants and instant answer surfaces. They overlap, but GEO is broader and AEO is more about answer formatting.
+
+**How long does GEO take to show results?**
+Technical and schema fixes can appear in weeks. Citation and answer box gains usually take two to four months, depending on competition, content depth and how often language-model tools refresh their sources.
+
+**Is Google AI Overviews optimization part of the work?**
+Yes. AI Overviews use similar signals to answer boxes and language-model search. Passage-level clarity, entity consistency, schema and citation-worthy content are the focus.
+
+**Agency work or direct clients?**
+Both. A team of ten analysts was led at DigiMark Agency. Direct brand consulting is the current focus. Presenting to C-level stakeholders and mentoring junior SEOs is part of the practice.
+
+**Which industries have been covered?**
+E-commerce, B2B SaaS, fintech, IT services, education and agriculture. Work covers technical SEO, local SEO, international SEO with hreflang, and app store optimization.
+
+## Optional
+
+- [Resume (PDF)](https://drive.google.com/file/d/1KPbHomL58rksXZTzn1LhJiDrXdLl0lHv/view?usp=sharing): Full resume with all roles and dates.
+- [Calendly](https://calendly.com/kirankumarvel/30min): Book a free 30-minute SEO consultation.
+- [Full portfolio on Canva](https://canva.link/x7topkvexmym05t): Visual version of case studies and results.
+- [Sitemap](https://kirankumarvel.github.io/sitemap.xml): Machine-readable list of all pages with hreflang annotations.
