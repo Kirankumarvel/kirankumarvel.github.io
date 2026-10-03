@@ -1,21 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 
+<!--
+  Sitemap for kirankumarvel.github.io
+  Owner: Kiran Kumar V (Senior SEO Analyst)
+  Bilingual portfolio (English + Tamil) with hreflang annotations
+  Last full audit: 2026-07-13
+  Contact: kirankumarvel.work@gmail.com
+  Spec: https://www.sitemaps.org/protocol.html
+  Image extension: https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+-->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ══════════════════════════════════════════════════════════
+       ENGLISH HOMEPAGE  ·  https://kirankumarvel.github.io/
+       Primary language version. x-default points here.
+       ══════════════════════════════════════════════════════════ -->
   <url>
     <loc>https://kirankumarvel.github.io/</loc>
-    <lastmod>2025-07-13</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
+
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
+      <image:title>Kiran Kumar V — Senior SEO Analyst, GEO and AEO Specialist</image:title>
+      <image:caption>Portrait of Kiran Kumar V, Senior SEO Analyst with 8+ years agency experience in Python automation, GA4, GEO and AEO strategy.</image:caption>
+    </image:image>
   </url>
 
+  <!-- ══════════════════════════════════════════════════════════
+       TAMIL HOMEPAGE  ·  https://kirankumarvel.github.io/ta/
+       Localised language version for Tamil-speaking users.
+       ══════════════════════════════════════════════════════════ -->
   <url>
     <loc>https://kirankumarvel.github.io/ta/</loc>
-    <lastmod>2025-07-13</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
+
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
+      <image:title>கிரண் குமார் வி — மூத்த SEO ஆய்வாளர், GEO மற்றும் AEO நிபுணர்</image:title>
+      <image:caption>கிரண் குமார் வி அவர்களின் படம். எட்டு ஆண்டுகளுக்கு மேல் ஏஜென்சி அனுபவம் உள்ள மூத்த SEO ஆய்வாளர்.</image:caption>
+    </image:image>
   </url>
 
 </urlset>
