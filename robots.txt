@@ -1,4 +1,332 @@
+# ══════════════════════════════════════════════════════════════════════════
+#  robots.txt  ·  kirankumarvel.github.io
+#  Owner: Kiran Kumar V  ·  Senior SEO Analyst  ·  GEO and AEO Specialist
+#  Contact: kirankumarvel.work@gmail.com
+#  Last full audit: 2026-07-13
+#  Policy: Allow all search engines and all documented AI crawlers.
+#          No content is disallowed. Maximum visibility by design.
+#  Spec: https://www.robotstxt.org/  ·  RFC 9309
+# ══════════════════════════════════════════════════════════════════════════
+
+
+# ──────────────────────────────────────────────────────────────────────────
+#  GLOBAL RULE  ·  applies to every crawler without its own named block
+# ──────────────────────────────────────────────────────────────────────────
 User-agent: *
 Allow: /
+Disallow:
+
+
+# ──────────────────────────────────────────────────────────────────────────
+#  SEARCH ENGINE CRAWLERS  ·  traditional indexing, must never be blocked
+# ──────────────────────────────────────────────────────────────────────────
+
+# Google Search, Google Images, Google Discover
+User-agent: Googlebot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Google News (not used here, but harmless to allow)
+User-agent: Googlebot-News
+Allow: /
+
+# Microsoft Bing and Copilot Search
+User-agent: Bingbot
+Allow: /
+
+# Microsoft AdIndexer (Bing ad relevance)
+User-agent: AdIdxBot
+Allow: /
+
+# Yahoo / Verizon Media
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo organic search
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Naver
+User-agent: Yeti
+Allow: /
+
+# Sogou
+User-agent: Sogou web spider
+Allow: /
+
+# Exalead
+User-agent: Exabot
+Allow: /
+
+# Apple Search (Spotlight, Siri, Safari)
+User-agent: Applebot
+Allow: /
+
+# Internet Archive (Wayback Machine)
+User-agent: ia_archiver
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  OPENAI  ·  ChatGPT, ChatGPT Search, Custom GPTs
+#  Three separate bots, each with a different job. All three are allowed.
+#  Docs: https://developers.openai.com/api/docs/bots
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training crawler for future GPT models
+User-agent: GPTBot
+Allow: /
+
+# Search indexer for ChatGPT Search citations
+User-agent: OAI-SearchBot
+Allow: /
+
+# User-triggered fetcher when a person pastes your URL into ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# Ad safety validator for ChatGPT ads
+User-agent: OAI-AdsBot
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  ANTHROPIC  ·  Claude, Claude Search
+#  Docs: https://support.claude.com/en/articles/8896518
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training crawler for future Claude models
+User-agent: ClaudeBot
+Allow: /
+
+# Search indexer for Claude search citations
+User-agent: Claude-SearchBot
+Allow: /
+
+# User-triggered fetcher when a person asks Claude to visit a URL
+User-agent: Claude-User
+Allow: /
+
+# Legacy research and safety crawler (deprecated but still seen in logs)
+User-agent: anthropic-ai
+Allow: /
+
+# Legacy identifier (deprecated but still seen in logs)
+User-agent: Claude-Web
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  GOOGLE AI  ·  Gemini, Vertex AI, AI Overviews, AI Mode
+#  Google-Extended is a control token, not a crawler. Allowing it means
+#  your content may be used for Gemini training and grounding.
+#  Docs: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+# ══════════════════════════════════════════════════════════════════════════
+
+# Controls Gemini training and grounding (not a separate HTTP crawler)
+User-agent: Google-Extended
+Allow: /
+
+# Enterprise Vertex AI Agent crawler (runs at site owner's request)
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# General Google crawler for non-search products
+User-agent: GoogleOther
+Allow: /
+
+# Google Read Aloud / Assistant
+User-agent: Google-Read-Aloud
+Allow: /
+
+# Google Site Verifier
+User-agent: Google-Site-Verification
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  PERPLEXITY AI  ·  Perplexity Search, Perplexity answers
+#  Perplexity recommends allowing PerplexityBot so pages can be surfaced.
+#  Docs: https://perplexity.com/perplexitybot
+# ══════════════════════════════════════════════════════════════════════════
+
+# Search indexer that surfaces and links websites in Perplexity results
+User-agent: PerplexityBot
+Allow: /
+
+# User-triggered live retrieval when a person uses Perplexity
+User-agent: Perplexity-User
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  APPLE INTELLIGENCE  ·  Applebot-Extended controls training opt-in
+#  Applebot is already allowed above (search features).
+#  Applebot-Extended is a control token; allowing it opts in to training.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Controls whether crawled data trains Apple foundation models
+User-agent: Applebot-Extended
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  META AI  ·  Meta AI, Llama models, link previews
+#  Three separate tokens, each with a different job.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training and indexing crawler for Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Search indexer for Meta AI search results
+User-agent: meta-webindexer
+Allow: /
+
+# User-triggered fetcher when a person shares a link in Meta apps
+User-agent: meta-externalfetcher
+Allow: /
+
+# Link preview crawler for Facebook and Messenger
+User-agent: FacebookExternalHit
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  AMAZON  ·  Alexa, Amazon AI products
+#  Amazonbot caches robots.txt for up to 30 days.
+#  Docs: https://developer.amazon.com/amazonbot
+# ══════════════════════════════════════════════════════════════════════════
+
+# Products and services improvement, may train Amazon AI models
+User-agent: Amazonbot
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  DUCKDUCKGO  ·  DuckAssist AI-assisted answers
+#  Crawls pages in real time for AI answers that cite their sources.
+#  Changes apply after approximately 72 hours.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Real-time AI answer crawler
+User-agent: DuckAssistBot
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  MISTRAL AI  ·  Mistral models, Le Chat, Vibe
+#  Three separate tokens: training, search indexing, user fetcher.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training data crawler for Mistral generative AI models
+User-agent: MistralAI-Training
+Allow: /
+
+# Search indexing crawler
+User-agent: MistralAI-Index
+Allow: /
+
+# User-triggered fetcher for Mistral Vibe
+User-agent: MistralAI-User
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  COMMON CRAWL  ·  Open web archive used by many AI labs for training
+#  Allowing CCBot means your content may reach AI labs that do not run
+#  their own crawlers. For a portfolio, this is a net positive.
+#  Docs: https://commoncrawl.org/ccbot
+# ══════════════════════════════════════════════════════════════════════════
+
+# Open repository of web crawl data
+User-agent: CCBot
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  BYTEDANCE  ·  TikTok, Doubao, ByteDance AI
+#  Bytespider has documented compliance issues and often ignores robots.txt.
+#  Allowing it costs nothing here; blocking it would not reliably stop it.
+#  Leaving it allowed is the pragmatic choice for a public portfolio.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training crawler for ByteDance AI models
+User-agent: Bytespider
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  COHERE  ·  Cohere models, enterprise AI
+#  Docs: https://cohere.com
+# ══════════════════════════════════════════════════════════════════════════
+
+# Training data for Cohere models
+User-agent: cohere-ai
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  OTHER AI CRAWLERS AND DATA EXTRACTORS
+#  Allowed by default. A portfolio benefits from wider reach.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Diffbot knowledge graph and AI training datasets
+User-agent: Diffbot
+Allow: /
+
+# Webz.io web data for AI training sets
+User-agent: Omgilibot
+Allow: /
+
+# Webz.io legacy crawler
+User-agent: Webz.io
+Allow: /
+
+# Scrapy (open-source crawler often used for AI datasets)
+User-agent: Scrapy
+Allow: /
+
+# ScrapingHub / Zyte (commercial AI data extraction)
+User-agent: Scrapy
+Allow: /
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  AI DISCOVERY FILES
+#  These are referenced in every HTML page via <link rel="alternate">
+#  but listing them here ensures crawlers that only read robots.txt
+#  can still discover them.
+# ══════════════════════════════════════════════════════════════════════════
+
+# Machine-readable summary for language-model tools
+# https://kirankumarvel.github.io/llms.txt
+
+# Extended machine-readable context for language-model tools
+# https://kirankumarvel.github.io/llms-full.txt
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  SITEMAP
+#  Bilingual sitemap with hreflang annotations and image extensions.
+# ══════════════════════════════════════════════════════════════════════════
 
 Sitemap: https://kirankumarvel.github.io/sitemap.xml
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  END OF FILE
+#  Policy summary: every documented search and AI crawler is allowed.
+#  No content is disallowed. Re-audit quarterly as new crawlers appear.
+# ══════════════════════════════════════════════════════════════════════════
