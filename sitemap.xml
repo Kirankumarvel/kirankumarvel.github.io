@@ -1,60 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:s="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  exclude-result-prefixes="s image">
 
-<!--
-  Sitemap for kirankumarvel.github.io
-  Owner: Kiran Kumar V (Senior SEO Analyst)
-  Bilingual portfolio (English + Tamil) with hreflang annotations
-  Last full audit: 2026-07-13
-  Contact: kirankumarvel.work@gmail.com
-  Spec: https://www.sitemaps.org/protocol.html
-  Image extension: https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
--->
+  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- ══════════════════════════════════════════════════════════
-       ENGLISH HOMEPAGE  ·  https://kirankumarvel.github.io/
-       Primary language version. x-default points here.
-       ══════════════════════════════════════════════════════════ -->
-  <url>
-    <loc>https://kirankumarvel.github.io/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-
-    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
-
-    <image:image>
-      <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
-      <image:title>Kiran Kumar V — Senior SEO Analyst, GEO and AEO Specialist</image:title>
-      <image:caption>Portrait of Kiran Kumar V, Senior SEO Analyst with 8+ years agency experience in Python automation, GA4, GEO and AEO strategy.</image:caption>
-    </image:image>
-  </url>
-
-  <!-- ══════════════════════════════════════════════════════════
-       TAMIL HOMEPAGE  ·  https://kirankumarvel.github.io/ta/
-       Localised language version for Tamil-speaking users.
-       ══════════════════════════════════════════════════════════ -->
-  <url>
-    <loc>https://kirankumarvel.github.io/ta/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-
-    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
-
-    <image:image>
-      <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
-      <image:title>கிரண் குமார் வி — மூத்த SEO ஆய்வாளர், GEO மற்றும் AEO நிபுணர்</image:title>
-      <image:caption>கிரண் குமார் வி அவர்களின் படம். எட்டு ஆண்டுகளுக்கு மேல் ஏஜென்சி அனுபவம் உள்ள மூத்த SEO ஆய்வாளர்.</image:caption>
-    </image:image>
-  </url>
-
-</urlset>
+  <xsl:template match="/">
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>XML Sitemap — Kiran Kumar V</title>
+        <style>
+          body{font-family:Inter,system-ui,sans-serif;background:#03060C;color:#E3E9F2;
+               padding:2rem 1.2rem;line-height:1.6;max-width:1100px;margin:0 auto}
+          h1{font-family:'Fira Code',monospace;color:#0aff99;font-size:1.4rem;margin-bottom:.3rem}
+          p.meta{color:#8a9aae;font-size:.85rem;margin-bottom:1.4rem}
+          table{width:100%;border-collapse:collapse;font-size:.85rem}
+          th,td{padding:.6rem .8rem;border:1px solid rgba(10,255,153,.15);text-align:left;vertical-align:top}
+          th{background:rgba(10,255,153,.08);color:#0aff99;font-family:'Fira Code',monospace}
+          a{color:#9effcf;text-decoration:none;border-bottom:1px dashed rgba(10,255,153,.4)}
+          a:hover{color:#0aff99}
+          code{font-family:'Fira Code',monospace;font-size:.8rem;color:#b0f0b0}
+          .lang{display:inline-block;padding:.1rem .5rem;border-radius:20px;
+                background:rgba(10,255,153,.1);color:#0aff99;font-size:.7rem;
+                font-family:'Fira Code',monospace;margin-right:.3rem}
+        </style>
+      </head>
+      <body>
+        <h1>XML Sitemap</h1>
+        <p class="meta">
+          Kiran Kumar V · Senior SEO Analyst ·
+          <a href="https://kirankumarvel.github.io/">kirankumarvel.github.io</a>
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>URL</th>
+              <th>Last modified</th>
+              <th>Change frequency</th>
+              <th>Priority</th>
+              <th>Alternates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <xsl:for-each select="s:urlset/s:url">
+              <tr>
+                <td><a href="{s:loc}"><xsl:value-of select="s:loc"/></a></td>
+                <td><code><xsl:value-of select="s:lastmod"/></code></td>
+                <td><xsl:value-of select="s:changefreq"/></td>
+                <td><xsl:value-of select="s:priority"/></td>
+                <td>
+                  <xsl:for-each select="xhtml:link">
+                    <span class="lang"><xsl:value-of select="@hreflang"/></span>
+                  </xsl:for-each>
+                </td>
+              </tr>
+            </xsl:for-each>
+          </tbody>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
