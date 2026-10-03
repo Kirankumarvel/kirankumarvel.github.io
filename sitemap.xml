@@ -1,100 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-===============================================================================
-  XML SITEMAP  ·  https://kirankumarvel.github.io/sitemap.xml
-===============================================================================
-
-  Owner          : Kiran Kumar V  ·  Senior SEO Analyst
-  Portfolio      : https://kirankumarvel.github.io/
-  Contact        : kirankumarvel.work@gmail.com
-  Last audit     : 2026.07.13
-  Spec           : https://www.sitemaps.org/protocol.html
-  Image spec     : https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
-
-  Languages      : English (en)  ·  Tamil (ta)  ·  x-default points to English
-  Total URLs     : 2
-  Total images   : 2
-  Next review    : 2026.10.13  (quarterly)
-
-  MAINTENANCE NOTES
-  * When a new page is added, create a new url block.
-  * Every url must include all three xhtml link entries: en, ta, x-default.
-  * x-default ALWAYS points to the English version, never to Tamil.
-  * Update lastmod only when the page content actually changes.
-  * Timestamps use ISO 8601 with the India timezone offset (+05:30).
-  * Validate at https://www.xml-sitemaps.com/validate-xml-sitemap.html
-
-===============================================================================
--->
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- =========================================================================
-       URL 1 of 2  ·  ENGLISH HOMEPAGE
-       Canonical version. Target of x-default. Primary indexing surface.
-       ========================================================================= -->
   <url>
     <loc>https://kirankumarvel.github.io/</loc>
     <lastmod>2026-07-13T14:30:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-
-    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
-
     <image:image>
       <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
-      <image:title>Kiran Kumar V · Senior SEO Analyst, GEO and AEO Specialist</image:title>
-      <image:caption>Portrait of Kiran Kumar V, Senior SEO Analyst with 8+ years of agency experience in Python automation, GA4, GEO and AEO strategy. Based in Bengaluru, India.</image:caption>
-      <image:license>https://kirankumarvel.github.io/#contact</image:license>
+      <image:title>Kiran Kumar V · Senior SEO Analyst</image:title>
+      <image:caption>Portrait of Kiran Kumar V, Senior SEO Analyst with 8+ years of agency experience in Python automation, GA4, GEO and AEO strategy.</image:caption>
     </image:image>
   </url>
 
-  <!-- =========================================================================
-       URL 2 of 2  ·  TAMIL HOMEPAGE
-       Localised version. Reciprocal hreflang set. Lower priority
-       because English is the primary indexing target.
-       ========================================================================= -->
   <url>
     <loc>https://kirankumarvel.github.io/ta/</loc>
     <lastmod>2026-07-13T14:30:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-
-    <xhtml:link rel="alternate" hreflang="en"        href="https://kirankumarvel.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ta"        href="https://kirankumarvel.github.io/ta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kirankumarvel.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://kirankumarvel.github.io/ta/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kirankumarvel.github.io/"/>
-
     <image:image>
       <image:loc>https://raw.githubusercontent.com/Kirankumarvel/kirankumarvel.github.io/main/picofme.png</image:loc>
-      <image:title>கிரண் குமார் வி · மூத்த SEO ஆய்வாளர், GEO மற்றும் AEO நிபுணர்</image:title>
-      <image:caption>கிரண் குமார் வி அவர்களின் படம். எட்டு ஆண்டுகளுக்கு மேல் ஏஜென்சி அனுபவம் உள்ள மூத்த SEO ஆய்வாளர். பெங்களூரு, இந்தியா.</image:caption>
-      <image:license>https://kirankumarvel.github.io/ta/#contact</image:license>
+      <image:title>கிரண் குமார் வி · மூத்த SEO ஆய்வாளர்</image:title>
+      <image:caption>கிரண் குமார் வி அவர்களின் படம். மூத்த SEO ஆய்வாளர், பெங்களூரு, இந்தியா.</image:caption>
     </image:image>
   </url>
-
-  <!-- =========================================================================
-       FUTURE EXPANSION PLACEHOLDER
-
-       When individual pages are added, for example:
-         /case-studies/privo/
-         /case-studies/gamize/
-         /blog/python-seo-automation/
-
-       Add a new url block above this comment containing:
-         loc          full canonical URL
-         lastmod      ISO 8601 timestamp with +05:30 offset
-         changefreq   monthly or weekly depending on update cadence
-         priority     0.7 to 0.8 for subpages
-         xhtml links  all three hreflang entries
-         image blocks only if the page has unique images
-
-       Do not add anchor links such as #section as separate url entries.
-       Search engines index the canonical page, not fragments.
-       ========================================================================= -->
 
 </urlset>
